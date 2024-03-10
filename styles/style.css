@@ -4,6 +4,7 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
 .productIndex {
   padding-top: 1rem;
   padding-bottom: 0.5rem;
@@ -38,7 +39,7 @@
 .product-old-price {
   font-size: 70%;
   font-weight: 400;
-  color: #8d99ae;
+  color: #f3f3f3;
 }
 
 
@@ -49,6 +50,7 @@
 @media screen and (max-width: 767px){
   .colCustom{
     padding-bottom: 1rem;
+    padding-top: 1rem;
   }
   .productIndex{
     background-color: #7E949F;
@@ -64,6 +66,9 @@
   
 }
 @media screen and (max-width: 991px){
+  .colCustom{
+    padding-top: 1rem;
+  }
   
 }
 @media screen and (max-width: 1199px){
