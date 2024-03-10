@@ -40,3 +40,23 @@ i {
 .containerCustom {
   padding-bottom: 1rem;
 }
+
+@media screen and (max-width: 767px){
+  .imgProducto {
+    width: 250px; /* Cambia el ancho de la imagen a 200 píxeles */
+    height: auto;
+  }
+}
+@media screen and (max-width: 991px){
+  .imgProducto {
+    width: 300px; /* Cambia el ancho de la imagen a 200 píxeles */
+    height: auto;
+  }
+
+}
+
+
+
+@media screen and (max-width: 575px){
+
+}
